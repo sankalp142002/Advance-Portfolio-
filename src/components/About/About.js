@@ -10,9 +10,9 @@ import {
 } from "../styles/About.styled";
 import { SectionHeading, SectionTitle } from "../styles/SectionHeading";
 import { StyledParagraph } from "../styles/Typography.styled";
-import myImage from "../../assets/my-image.jpg";
+import myImage from "../../assets/my-image.jpeg";
 import downloadIcon from "../../assets/icons/download-icon.svg";
-import resume from "../../assets/resume.pdf";
+
 
 const About = () => {
   return (
@@ -28,30 +28,38 @@ const About = () => {
         </AboutImageContainer>
         <AboutDetailsContainer>
           <StyledParagraph>
-            My name is Jericho P. Bantiquete, currently pursuing Bachelor of
-            Science in Information Technology in Pangasinan State University. I
-            am a passionate front-end developer based in Philippines.
+          Get ready to meet Sankalp, the Full Stack Web Wizard of IIIT Gwalior!
+          With a magic touch on both front - end and back - end development, I
+          turn dreams into reality; from crafting beautiful user interfaces to
+          seamlessly integrating with databases. I am a constant learner, always
+          seeking to improve my skills and stay ahead of the latest
+          technologies. So if you want your website to be the envy of the internet, I am the guy for you!
+       
           </StyledParagraph>
           <StyledParagraph>
-            I love to design and create responsive websites or web apps from
+            I love to create websites from
             scratch. The technologies, tools and languages I am using to build
-            my projects are HTML, CSS, JavaScript, REACT JS, TailwindCSS,
-            Bootstrap, PHP Laravel, Git and GitHub, Figma, Adobe XD and VS Code.
+            my projects are HTML, CSS, React.js, TailwindCSS,
+            Bootstrap, MaterialUI, Firebase, Redux, Node.js, Express.js, Pusher, Axios, Netlify, Stripe, MongoDB, Git and GitHub, VS Code and many more.
           </StyledParagraph>
           <StyledParagraph>
-            I have eagerness to learn something new every day and I love to
-            share my knowledge to my fellow students and developers. And I am
-            looking forward to talk with you!
+            I am also a software developer with high profecency in C/C++, Python and JavaScript.
+
+          </StyledParagraph>
+          <StyledParagraph>
+          Lets build something together!
           </StyledParagraph>
           <Resume>
             <ResumeLink
-              href={resume}
+              href={"https://drive.google.com/drive/folders/1nkd1z10KTPSu3GYcH6sIThqUyv_0NkfS?usp=sharing"}
+              target="_blank"
               icon={downloadIcon}
-              download="resume-jericho-bantiquete"
+              download="Sankalp"
             >
               Download Resume
             </ResumeLink>
           </Resume>
+
         </AboutDetailsContainer>
       </AboutContent>
     </StyledAbout>

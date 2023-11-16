@@ -95,12 +95,12 @@ const Navbar = () => {
             exact="true"
             offset={-85.26}
           >
-            Playground
+            Blog
           </StyledNavLinks>
         </NavList>
       </NavMenuList>
       <StyledCTA
-        href="mailto:jerichobantiquete@gmail.com "
+        href="mailto:sankalp121314@gmail.com "
         target="_blank"
         rel="noreferrer"
       >

@@ -8,9 +8,11 @@ import {
   MobileButton,
   MobileSocials,
   MobileSocial,
-  MobileQuote,
   CloseText,
 } from "../styles/MobileMenu.styled";
+import { GrLinkedinOption } from "react-icons/gr";
+import { GoMarkGithub } from "react-icons/go";
+import { FaEnvelope } from "react-icons/fa";
 
 const MobileMenu = ({ isOpen, toggle }) => {
   return (
@@ -30,10 +32,10 @@ const MobileMenu = ({ isOpen, toggle }) => {
           About
         </MobileMenuLink>
         <MobileMenuLink to="playground" onClick={toggle}>
-          Playground
+          Blog
         </MobileMenuLink>
         <MobileButton
-          href="mailto:jerichobantiquete@gmail.com "
+          href="mailto:sankalp121314@gmail.com "
           target="_blank"
           rel="noreferrer"
         >
@@ -55,29 +57,28 @@ const MobileMenu = ({ isOpen, toggle }) => {
       </MobileMenuList>
       <MobileSocials>
         <MobileSocial
-          href="mailto:jerichobantiquete@gmail.com"
+          href="mailto:sankalp121314@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Gm
+          <FaEnvelope />
         </MobileSocial>
         <MobileSocial
-          href="https://github.com/monciego"
+          href="https://github.com/sankalp142002"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Gh
+          <GoMarkGithub />
         </MobileSocial>
 
         <MobileSocial
-          href="https://www.linkedin.com/in/jericho-bantiquete-450541179/"
+          href="https://www.linkedin.com/in/sankalp-bhoyar-bb2433204/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          ln
+          <GrLinkedinOption />
         </MobileSocial>
       </MobileSocials>
-      <MobileQuote>travaille pour ça</MobileQuote>
     </MobileMenuContainer>
   );
 };

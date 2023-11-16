@@ -7,9 +7,8 @@ import GlobalStyles from "./components/styles/Global";
 import { ThemeProvider } from "styled-components";
 import { theme } from "./components/styles/Theme";
 import { BrowserRouter as Router } from "react-router-dom";
-import ParallaxComponent from "./components/Parallax/Parallax";
 import Technologies from "./components/Technologies/Technologies";
-import Playground from "./components/Playground/Playground";
+import Blog from "./components/Blog/Blog";
 
 function App() {
   console.log(
@@ -29,9 +28,8 @@ function App() {
           <Home />
           <Projects />
           <About />
-          <ParallaxComponent />
           <Technologies />
-          <Playground />
+          <Blog />
           <Footer />
         </>
       </ThemeProvider>

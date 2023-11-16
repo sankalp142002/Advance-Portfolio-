@@ -1,5 +1,4 @@
 import React from "react";
-import { BiLinkExternal } from "react-icons/bi";
 import { GoMarkGithub } from "react-icons/go";
 import { IconContext } from "react-icons";
 import {
@@ -8,7 +7,6 @@ import {
   ProjectCodeLink,
   ProjectDetails,
   ProjectImage,
-  ProjectLiveLink,
   ProjectTitle,
   ProjectTransitionImage,
 } from "../styles/Projects.styled";
@@ -36,14 +34,6 @@ const ProjectCardComponent = ({
               <GoMarkGithub />
               <LinkName>Github Code</LinkName>
             </ProjectCodeLink>
-            <ProjectLiveLink
-              href={liveLink}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <BiLinkExternal />
-              <LinkName>Live</LinkName>
-            </ProjectLiveLink>
           </ProjectDetails>
         </ProjectCard>
       </IconContext.Provider>

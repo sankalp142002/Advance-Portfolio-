@@ -1,18 +1,31 @@
-import html5 from "../../assets/technologies/html.svg";
-import css3 from "../../assets/technologies/css.svg";
-import javascript from "../../assets/technologies/javascript.svg";
-import reactjs from "../../assets/technologies/react.svg";
-import styledComponents from "../../assets/technologies/styled-components.svg";
-import tailwindcss from "../../assets/technologies/tailwindcss.svg";
-import bootstrap from "../../assets/technologies/bootstrap.svg";
-import sass from "../../assets/technologies/sass.svg";
+import html5 from "../../assets/technologies/html-1.svg";
+import css3 from "../../assets/technologies/css-3.svg";
+import javascript from "../../assets/technologies/logo-javascript.svg";
+import reactjs from "../../assets/technologies/react-2.svg";
+import bootstrap from "../../assets/technologies/bootstrap-5-1.svg";
+import sass from "../../assets/technologies/sass-1.svg";
 import npm from "../../assets/technologies/npm.svg";
-import laravel from "../../assets/technologies/laravel.svg";
-import git from "../../assets/technologies/git.svg";
-import github from "../../assets/technologies/github.svg";
-import figma from "../../assets/technologies/figma.svg";
-import adobexd from "../../assets/technologies/adobexd.svg";
-import vscode from "../../assets/technologies/visual-studio-code.svg";
+import git from "../../assets/technologies/git-icon.svg";
+import github from "../../assets/technologies/github-icon.svg";
+import C from "../../assets/technologies/c.svg";
+import Cpp from "../../assets/technologies/c-1.svg";
+import python from "../../assets/technologies/python-5.svg";
+import mongo from "../../assets/technologies/mongodb-icon-1.svg";
+import linux from "../../assets/technologies/linux-tux.svg";
+import node from "../../assets/technologies/nodejs.svg";
+import express from "../../assets/technologies/express-109.svg";
+import firebase from "../../assets/technologies/firebase-1.svg";
+import gsap from "../../assets/technologies/gsap-greensock.svg";
+import mui from "../../assets/technologies/material-ui-1.svg";
+import redux from "../../assets/technologies/redux.svg";
+import pusher from "../../assets/technologies/pusher-1.svg";
+import netlify from "../../assets/technologies/netlify.svg";
+import heroku from "../../assets/technologies/heroku-1.svg";
+import mysql from "../../assets/technologies/mysql-6.svg";
+import stripe from "../../assets/technologies/stripe-4.svg";
+import vscode from "../../assets/technologies/visual-studio-code.svg"
+
+
 
 export const iconsData = [
   {
@@ -25,47 +38,42 @@ export const iconsData = [
     icon: css3,
     name: "CSS3",
   },
-  {
-    id: 3,
-    icon: javascript,
-    name: "JavaScript",
-  },
+
   {
     id: 4,
     icon: reactjs,
-    name: "React JS",
+    name: "React.jS",
   },
   {
-    id: 5,
-    icon: styledComponents,
-    name: "Styled Components",
+    id: 19,
+    icon: redux,
+    name: "redux",
+  },
+  {
+    id: 20,
+    icon: mui,
+    name: "Material UI",
   },
 
-  {
-    id: 6,
-    icon: tailwindcss,
-    name: "TailwindCSS",
-  },
   {
     id: 7,
     icon: bootstrap,
     name: "Bootstrap",
   },
   {
+    id: 18,
+    icon: gsap,
+    name: "GSAP",
+  },
+  {
     id: 8,
     icon: sass,
     name: "SASS",
   },
-  {
-    id: 9,
-    icon: npm,
-    name: "Node Package Manager",
-  },
-  {
-    id: 10,
-    icon: laravel,
-    name: "PHP Laravel",
-  },
+
+];
+
+export const iconsData2 = [
   {
     id: 11,
     icon: git,
@@ -77,18 +85,90 @@ export const iconsData = [
     name: "GitHub",
   },
   {
-    id: 13,
-    icon: figma,
-    name: "Figma",
+    id: 9,
+    icon: npm,
+    name: "Node Package Manager",
   },
   {
-    id: 14,
-    icon: adobexd,
-    name: "Adobe XD",
+    id: 21,
+    icon: netlify,
+    name: "Visual Studio Code",
+  },
+  {
+    id: 22,
+    icon: pusher,
+    name: "Netlify",
+  },
+  {
+    id: 23,
+    icon: heroku,
+    name: "Heroku",
   },
   {
     id: 15,
+    icon: linux,
+    name: "Linux",
+  },
+  {
+    id: 25,
+    icon: stripe,
+    name: "Stripe",
+  },
+  {
+    id: 26,
     icon: vscode,
     name: "Visual Studio Code",
   },
-];
+]
+
+export const iconsData3 = [
+  {
+    id: 14,
+    icon: express,
+    name: "Express.js",
+  },
+  {
+    id: 16,
+    icon: node,
+    name: "Node.js",
+  },
+  {
+    id: 13,
+    icon: mongo,
+    name: "MongoDB",
+  },
+  {
+    id: 17,
+    icon: firebase,
+    name: "Firebase",
+  },
+  {
+    id: 24,
+    icon: mysql,
+    name: "MySQL",
+  },
+]
+
+export const iconsData4 = [
+  {
+    id: 6,
+    icon: Cpp,
+    name: "C",
+  },
+  {
+    id: 5,
+    icon: C,
+    name: "C++",
+  },
+
+  {
+    id: 10,
+    icon: python,
+    name: "Python",
+  },
+  {
+    id: 3,
+    icon: javascript,
+    name: "JavaScript",
+  },
+]
